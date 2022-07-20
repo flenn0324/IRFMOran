@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Inscription | IRFM Oran</title>
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    </head>
+<body class="bg-black pt-5 mt-5">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand fs-3" href="#page-top"><img src="./assets/img/favicon.png" class="mb-2">IRFM<span class="fs-5">ORAN</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">Qui nous sommes?</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#album">Album</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#lettre">MESSAGE DU PRÉSIDENT</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="events.html">Nos evenements</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contacte</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#annexes">Annexes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--FORM-->
+    <div class="container">
+        <div class="row">
+            <div class="col-6 gris mb-5">
+                <div class="pt-5 pb-2"><img class="img-fluid" src="assets/img/education.png" alt="..." /></div>
+            </div>
+
+            <div class="col-6 col-xs-12 gris pe-5 ps-3 py-5 mb-5">
+                <form id="regForm"  action="">
+
+                    <h1 class="red text-center">Inscription</h1>
+                    
+                    <!-- One "tab" for each step in the form: -->
+                    <div class="tab">
+                        <h3 class="text-center text-white">Informations personnelle</h3>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class=" fst-italic fw-bold text-white">Nom :</label>
+                                <label class="float-end fst-italic fw-bold text-white">: الإسم</label>
+                                <input type="text" id="nom" name="nom" maxlength="25" class="form-control  mb-2">  
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class=" fst-italic fw-bold text-white">Prenom :</label>
+                                <label class="float-end  fst-italic fw-bold text-white"> : اللقب</label>
+                                <input type="text" id="prenom" name="prenom" maxlength="25"  class="form-control  mb-2">  
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <label class=" fst-italic fw-bold text-white">Sex : <span class="float-end">: الجنس</span></label>
+                            <div class="form-check">
+                                <input class="form-check-input mx-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label text-white" for="flexRadioDefault1">
+                                    Homme
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input mx-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label text-white" for="flexRadioDefault2">
+                                    Femme
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class=" fst-italic fw-bold text-white">Date de naissance :</label>
+                                <label class="float-end fst-italic fw-bold text-white">: تاريخ الميلاد </label>
+                                <input type="date" id="dn" name="dn" maxlength="25" class="form-control  mb-2">  
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Wilaya de naissance :</label>
+                                <label class="float-end  fst-italic fw-bold text-white"> : ولاية الميلاد</label>
+                                <input type="text" id="wn" name="wn" maxlength="25" class="form-control mb-2">  
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab">
+                        <h3 class="text-center text-white">Informations de contact</h3>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Adresse mail :</label>
+                                <label class=" float-end fst-italic fw-bold text-white">: البريد الإلكتروني  </label>
+                                <input type="mail" id="am" name="am" maxlength="25" class="form-control mb-2">  
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Numero Telephone :</label>
+                                <label class="float-end fst-italic fw-bold text-white">  : الهاتف المحمول</label>
+                                <input type="tel" id="tel" name="tel" maxlength="25" class="form-control mb-2">  
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Numero Telephone parent :</label>
+                                <label class="float-end  fst-italic fw-bold text-white">   : رقم هاتف ولي الأمر</label>
+                                <input type="tel" id="tel" name="tel" maxlength="25" class="form-control mb-2">  
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Wilaya de residence :</label>
+                                <label class="float-end  fst-italic fw-bold text-white">: ولاية الإقامة</label>
+                                <input type="text" id="wr" name="wr" maxlength="25" class="form-control  mb-2">  
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Adresse de residence :</label>
+                                <label class=" float-end fst-italic fw-bold text-white"> : عنوان الإقامة</label>
+                                <input type="text" id="ar" name="ar" maxlength="25" class="form-control  mb-2">  
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab">
+                        <h3 class="text-center text-white">Informations d'inscription</h3>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class=" fst-italic fw-bold text-white">etablisement :</label>
+                                <label class="float-end fst-italic fw-bold text-white">: المؤسسة</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Oran</option>
+                                    <option value="1">Rélizane</option>
+                                    <option value="2">Bechar</option>
+                                    <option value="3">Sidi Bel Abbas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Specialitè :</label>
+                                <label class="float-end  fst-italic fw-bold text-white"> : التخصص</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>specilitè 1</option>
+                                    <option value="1">specilitè 1</option>
+                                    <option value="2">specilitè 1</option>
+                                    <option value="3">specilitè 1</option>
+                                </select> 
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <label class="  fst-italic fw-bold text-white">Annee d'inscription :</label>
+                                <label class=" float-end fst-italic fw-bold text-white">: سنة التسجيل</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>1ere annee</option>
+                                    <option value="1">2eme annee</option>
+                                    <option value="2">3eme annee</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="overflow:auto; " class="mt-3 d-xs-hide">
+                        <div style="float:right;">
+                            <div class="btn btn-secondary text-white btn-lg ms-2 rounded-pill" id="prevBtn" onclick="nextPrev(-1)">Retour</div>
+                            <div class="btn btn-secondary text-white btn-lg ms-2 rounded-pill" id="nextBtn" onclick="nextPrev(1)">Suivant</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Circles which indicates the steps of the form: -->
+                    <div style="text-align:center;" class="mt-3">
+                        <span class="step"></span>
+                        <span class="step"></span>
+                        <span class="step"></span>
+                    </div>
+                    
+                    </form>
+            
+            </div>
+
+        </div>
+    </div>
+    
+            <!--***********FOOTER*******-->
+            <footer class="bg-black text-white border-top border-white" id="footer">
+                <div class="container-fluid">
+                    <div class="row pt-3 align-items-center">
+                        <div class="col-lg-4 text-center">
+                            <h5>L'Institut Régional de Formation Musicale ORAN</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            
+                        </div>
+                    </div>
+                    <div class="row justify-content-center ">
+                        <p class="col-lg-4 my-2 text-center">&copy; IRFM ORAN 2021 | Tous droits réservés</p>
+                    </div>
+                </div>
+            </footer>
+                <!-- Bootstrap core JS-->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+                <!-- Core theme JS-->
+                <script src="js/scripts.js"></script>
+</body>
+</html>
